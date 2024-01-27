@@ -10,8 +10,8 @@ const commands = [{
 const rest = new REST({ version: '9' }).setToken(process.env.DISCORD_TOKEN);
 
 // Replace with your Discord bot's client ID and your server (guild) ID
-const clientId = 'your_discord_client_id';
-const guildId = 'your_discord_guild_id';
+const clientId = '1199438606150942803';
+const guildId = '1186706302437699666';
 
 (async () => {
   try {
