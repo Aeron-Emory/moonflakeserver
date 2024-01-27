@@ -1,0 +1,17 @@
+{
+  "name": "discord-exaroton-bot",
+  "version": "1.0.0",
+  "description": "A Discord bot to control a Minecraft server on Exaroton",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node bot.js",
+    "deploy": "node deploy-commands.js"
+  },
+  "author": "Your Name",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "discord.js": "^13.1.0",
+    "dotenv": "^10.0.0"
+  }
+}
