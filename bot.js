@@ -5,7 +5,7 @@ const axios = require('axios');
 const client = new Client({ intents: [Intents.FLAGS.GUILDS] });
 
 const exarotonAPIKey = process.env.EXAROTON_API_KEY;
-const serverId = 'your_server_id_here'; // Replace with your Exaroton server ID
+const serverId = 'qnHIr22zXLD3v8MC'; // Replace with your Exaroton server ID
 
 client.once('ready', () => {
     console.log('Bot is online!');
