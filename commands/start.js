@@ -5,7 +5,7 @@ module.exports = {
     description: 'Starts the Minecraft server',
     async execute(interaction) {
         const exarotonAPIKey = process.env.EXAROTON_API_KEY;
-        const serverId = 'your_server_id_here'; // Replace with your Exaroton server ID
+        const serverId = 'qnHIr22zXLD3v8MC'; // Replace with your Exaroton server ID
 
         try {
             const response = await axios.post(`https://api.exaroton.com/v1/server/start/${serverId}`, {}, {
